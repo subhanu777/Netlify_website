@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The title tag is also shown in browser's tab-->
+    <link rel="stylesheet" href="mystyle.css" />
+    <title>Subhanu Halder</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') ;    
+   
+body {
+        font-family:"Marvel",  "Lato", sans-serif;
+        font-size: 14px;
+        font-weight: 1000;
+        background-color: aliceblue;
+      }
+
+      .blink {
+        text-decoration: blink;
+        color: #1c87c9;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 240px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        color: #f1f1f1;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      .sidenav img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .sidenav h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 23px;
+      }
+
+      .sidenav p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+      }
+
+      .sidenav a {
+        padding: 6px 8px 6px 40px;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .main {
+        margin-left: 240px; /* Same as the width of the sidenav */
+        font-size: 16px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
+
+      h2 {
+        font-size: 23px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 12px;
+        }
+        .sidenav a {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="sidenav">
+      <p>
+        <img padding="6px 8px 6px 16px" src="Subhanu_setha_valley.jpg" width="160" />
+      </p>
+      <h2>Subhanu Halder</h2>
+      <p></p>
+      <p>PhD Scholar, IIT Delhi <br /></p>
+      <!--table>
+            <tr><td><bold>Email:</bold> <a color="#f1f1f1" href=mailto:soumen.basu@cse.iitd.ac.in>soumen.basu@cse.iitd.ac.in</td> </tr>
+            <tr><td><bold>Phone:</bold> +91 90515 01506</td> </tr>
+            </table -->
+      <a href="#about">About Me</a>
+      <a href="https://drive.google.com/file/d/1HVuLqOVDO7-5eOYLnaRZPlYr46FNSyWk/view?usp=sharing">Resume</a>
+      <a href="#publication">Publications</a>
+      <!--a href="#research">Research</a-->
+      <a href="#services">Services</a>
+      <a href="#activity">Recent Updates</a>
+      <a href="#teaching">Teaching</a>
+      <!-- <a href="#others">Others</a> -->
+      <a href="#meeting">Schedule Meeting</a>
+    </div>
+
+    <div class="main">
+      <h2>Contact</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td><bold>Email:</bold></td>
+            <td> <a href="mailto:eez212381@iitd.ac.in">eez212381@iitd.ac.in</a> / <a href="mailto:subhanu777@gmail.com">subhanu777@gmail.com</a> </td>
+          </tr>
+          <tr><td><bold>Phone:</bold>  </td> <td> +91 8482067003</td> </tr>
+          <tr><td><bold>Office:</bold>  </td> <td> 319 (Bharti), DSP Lab, IIT Delhi, 110016 </td></tr>
+          <tr><td><bold>Social Media:</bold>  </td> <td> <a href="https://www.linkedin.com/in/subhanuhalder777/">LinkedIn</a> &nbsp; 
+            <a href="https://scholar.google.com/citations?user=RPj75XMAAAA">Google Scholar</a> </td></tr>
+        </tbody>
+      </table>
+      <hr />
+      <h2 id="about">About Me</h2>
+      <p>
+        <b
+          >I'm pursuing Ph.D.! My
+          <a href="https://drive.google.com/file/d/1HVuLqOVDO7-5eOYLnaRZPlYr46FNSyWk/view?usp=sharing">CV/ Resume</a>
+        </b>
+      </p>
+      <!-- <br /> -->
+      <p>
+        I am a Ph.D. student and Prime Minister's Research Fellow in the
+        Department of Electrical Engineering at Indian Institute of Technology,
+        Delhi. My primary research interest is in Graph Neural Networks and the
+        quality of graph coarsening. I am particularly interested in effective
+        optimization framework for graph coarsening and graph learning
+        techniques apart from that I'm also interested in developing optimized
+        algorithm for trading. I have worked on Un/Semi/Weakly supervised
+        Learning, Reinforcement Learning, and Explainability.Prior to joining
+        the Ph.D. program at IIT Delhi, I completed my Masters from Jawaharlal
+        Nehru University, New Delhi in 2021 and my Bachelors in Mathematics from
+        Jadavpur University, Kolkata in 2018. If you have any questions or
+        comments, please feel free to contact me at <a href="mailto:eez212381@iitd.ac.in">eez212381@iitd.ac.in.</a>
+      </p>
+
+      <p><a href="https://calendly.com/subhanu777/one-two-one-1">Schedule a Meeting</a></p>
+      <hr />
+      <p></p>
+      <h2 id="publication">Publications</h2>
+      <ul style="list-style-type:square;">
+        <li> 
+            <b>Intelligent part of speech tagger for Hindi</b>
+            <br>
+            Devashish Dutta, <b>Subhanu Halder </b>, Tirthankar Gayen 
+    
+            <br>
+     Elsevier , Procedia computer science Journal · Jan 31, 2023
+            <br>
+            [&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S187705092300042X">Paper</a>, &nbsp;<a href="https://gbc-iitd.github.io/gbcnet">Webpage</a> &nbsp;]  
+        </li> 
+        <br>
+        
+    
+        </ul>
+      <p></p>
+      <!--hr>
+            <h2 id="research">
+            Research    
+            </h2>
+            <p>
+            My research in IIT Delhi specifically aims to tackle the problem of Gallbladder Cancer (GBC) detection from abdominal ultrasound (USG) images. Through my research, I expect to develop the automated processing of USG images in general and understand the objective characterization of gallbladder malignancy in USG images. Gallbladder cancer is an important problem for Indian population. It's one of the leading causes of cancer-related deaths in Indian women. >In the Northern parts of India, the incidence rate is comparable to the global highest. GBC causes about 165,000 deaths every year, worldwide. The disease is often detected late and has an average survival duration of only six months. AI-assisted detection of gallbladder malignancy signs in USG would result in early detection and ameliorate the bleak survival scenario. Following are some of my works.
+            </p-->
+      <hr />
+      <h2 id="services">Services</h2>
+      <ul style="list-style-type:circle;">
+        <li>  Teaching assistant at DESU tech meet, 2023</li>
+    </ul>
+
+      <hr />
+      <h2 id="activity">Recent Updates</h2>
+      <ul style="list-style-type:circle;">
+        <li> [05/2024 Our work ”Optimization Framework for Semi-supervised Attributed Graph Coarsening” has been
+          accepted in the Uncertainty in Artificial Intelligence(UAI,2024)
+          conference.</li>
+        <li> [01/2024] Attending CODS-COMAD, Bangalore 2024 </li> 
+        <li> [12/2023] Application accepted for PhD Clinic in CODS-COMAD, Bangalore 2024 </li> 
+        <li> [05/2021] Received the Pime Minister's Research Fellowship, Government of India, July 2023 </li>
+        <li> [07/2020] Presented my paper "Intelligent part of speech tagger for Hindi" in ICMLDE, 2023 (Virtual)</li>
+     
+    </ul>
+      <hr />
+      <h2 id="teaching">Teaching</h2>
+      <p> I have been a Teaching Assistant to the following courses. My responsibilities involved conducting lab sessions, assignment design, grading the assignments and exams.  
+    </p>
+    <ul style="list-style-type:circle;">
+        <li> Machine Learning (ELL 409) </li>
+        <li> Mathematical Foundation for Computer Technology(ELL780) </li>
+        <li> Introduction to Electrical Engineering(ELP 101)</li>
+        </ul>
+      <hr />
+      <!-- <h2 id="others">Others</h2>
+      <ul style="list-style-type: circle">
+        <li>
+          <a
+            href="https://www.cse.iitd.ac.in/~soumen/vision-lab/instructions.html"
+            >Instructions for using Vision Lab resources</a
+          >
+        </li>
+        <li>
+          <a href="https://www.cse.iitd.ac.in/~soumen/misc/report-iitd-cse.zip"
+            >Template for Dissertation (CSE, IITD)</a
+          >
+        </li>
+      </ul> -->
+      <p></p>
+      <hr />
+      <h2 id="meeting">Schedule a Meeting</h2>
+      <!-- Calendly inline widget begin -->
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/subhanu777/one-two-one-1"
+        style="position: relative; min-width: 320px; height: 630px"
+        data-processed="true"
+      >
+        <div class="calendly-spinner">
+          <div class="calendly-bounce1"></div>
+          <div class="calendly-bounce2"></div>
+          <div class="calendly-bounce3"></div>
+        </div>
+        <iframe
+          src="https://calendly.com/subhanu777/one-two-one-1"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          title="Select a Date &amp; Time - Calendly"
+        ></iframe>
+      </div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async=""
+      ></script>
+      <!-- Calendly inline widget end -->
+    </div>
+  </body>
+</html>
