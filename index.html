@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Subhanu Halder</title>
-  <!-- Google Fonts -->
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     /* Reset and Box-Sizing */
@@ -13,135 +14,132 @@
       padding: 0;
       box-sizing: border-box;
     }
-
+    
     body {
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       line-height: 1.6;
-      background-color: #ffffff;
-      color: #333333;
+      background-color: #f8f9fa;
+      color: #333;
     }
-
-    /* Sidebar Styling */
+    
+    /* Sidebar (Sidenav) */
     .sidenav {
       position: fixed;
       top: 0;
       left: 0;
-      width: 220px;
+      width: 250px;
       height: 100%;
-      background-color: #f5f5f5;
+      background-color: #343a40;
       padding: 20px;
       overflow-y: auto;
       text-align: center;
-      border-right: 1px solid #e0e0e0;
     }
-
+    
     .sidenav img {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       margin-bottom: 15px;
-      border: 2px solid #ccc;
+      border: 3px solid #fff;
     }
-
+    
     .sidenav h2 {
       font-family: 'Barlow Semi Condensed', sans-serif;
-      font-size: 22px;
-      color: #333;
+      font-size: 24px;
+      color: #fff;
       margin-bottom: 10px;
     }
-
+    
     .sidenav p {
-      color: #666;
+      color: #ced4da;
       margin-bottom: 20px;
-      font-size: 14px;
+      font-size: 16px;
     }
-
+    
     .sidenav a {
       display: block;
-      padding: 8px 0;
-      color: #007acc;
+      padding: 10px 0;
+      color: #adb5bd;
       text-decoration: none;
-      font-size: 16px;
+      font-size: 18px;
       transition: color 0.3s;
     }
-
+    
     .sidenav a:hover {
-      color: #005f99;
+      color: #fff;
     }
-
+    
     /* Main Content Area */
     .main {
-      margin-left: 240px;
+      margin-left: 270px;
       padding: 30px;
     }
-
+    
     .main h2 {
       font-family: 'Barlow Semi Condensed', sans-serif;
-      font-size: 26px;
+      font-size: 28px;
       margin-bottom: 15px;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 2px solid #dee2e6;
       padding-bottom: 5px;
     }
-
+    
     .main p {
       margin-bottom: 20px;
     }
-
+    
     table {
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 20px;
     }
-
+    
     table td {
       padding: 10px;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #dee2e6;
       vertical-align: top;
     }
-
+    
     table a {
-      color: #007acc;
+      color: #007bff;
       text-decoration: none;
     }
-
+    
     table a:hover {
       text-decoration: underline;
     }
-
+    
     hr {
       margin: 30px 0;
       border: 0;
-      border-top: 1px solid #e0e0e0;
+      border-top: 1px solid #dee2e6;
     }
-
+    
     ul {
       margin-left: 20px;
       margin-bottom: 20px;
       list-style-type: disc;
     }
-
+    
     li {
       margin-bottom: 10px;
     }
-
+    
     /* Calendly Widget Container */
     .calendly-inline-widget {
       min-width: 320px;
       height: 630px;
-      border: 1px solid #e0e0e0;
+      border: 1px solid #dee2e6;
       border-radius: 5px;
       overflow: hidden;
     }
-
+    
     /* Responsive adjustments */
     @media screen and (max-width: 768px) {
       .sidenav {
         width: 100%;
         height: auto;
         position: relative;
-        border-right: none;
-        border-bottom: 1px solid #e0e0e0;
       }
       .main {
         margin-left: 0;
